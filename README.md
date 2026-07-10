@@ -52,7 +52,6 @@ docker compose up --build
 
 Les images uploadées (`backend/media/`) et la base SQLite (`backend/db.sqlite3`) sont persistées sur l'hôte via des volumes.
 
-> **Note** : créez un fichier vide `backend/db.sqlite3` avant le premier lancement si nécessaire (`touch backend/db.sqlite3`), sinon Docker risque de créer un dossier à sa place.
 
 ## Lancement manuel (développement)
 
