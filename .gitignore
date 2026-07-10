@@ -1,3 +1,4 @@
+.mypy_cache/
 # python / django
 backend/__pycache__/
 backend/**/__pycache__/

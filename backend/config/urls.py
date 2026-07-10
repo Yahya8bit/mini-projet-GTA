@@ -24,5 +24,4 @@ urlpatterns = [
     path("api/", include("sitebuilder.urls")),
 ]
 
-# En dev, Django sert lui-même les fichiers uploadés
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

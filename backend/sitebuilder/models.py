@@ -3,7 +3,6 @@ from django.db import models
 # Create your models here.
     
 class SiteConfig(models.Model):
-    # ImageField gère l'upload : le fichier va dans media/banners/, la BDD stocke le chemin
     banner = models.ImageField(upload_to="banners/", null=True, blank=True)
 
     col1_image = models.ImageField(upload_to="columns/", null=True, blank=True)
